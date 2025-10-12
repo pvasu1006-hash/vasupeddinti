@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <div  className="flex justify-between items-center px-4 shadow h-16 sticky top-0 z-100 bg-white mr-2 md:mx-0">
       <div className="bg-violet-100 p-2 rounded-md">
-        <h1 className="font-semibold tracking-wider text-xl flex justify-between items-center">
+        <h1 className="font-semibold tracking-wider text-lg md:text-xl flex justify-between items-center">
           <span className=" bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500 pr-2 border border-r-purple-400 font-bold">
             VASU
           </span>

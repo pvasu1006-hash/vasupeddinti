@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       <div className="w-full md:w-1/2  flex items-center justify-center relative ">
-        <div className="absolute bg-white  w-120 h-120 rounded-full bg-gradient-to-b from-violet-500  to-pink-500  blur-[80px] "></div>
+        <div className="absolute bg-white  w-120 h-120 rounded-full bg-gradient-to-b from-violet-500  to-pink-500 blur-[80px] "></div>
 
         <div className="absolute left-0     p-2 z-20   flex items-center text-white text-center text-sm">
           <div className="flex justify-baseline items-center bg-violet-50 px-2 py-2 gap-2">
@@ -83,13 +83,13 @@ export default function Home() {
         <div className="absolute left-10 md:left-40  bottom-0 w-25 h-25 rounded-full bg-gradient-to-tr from-violet-700  to-pink-300 p-2 z-20  shadow-2xl flex items-center text-white text-center text-sm">
           <p>Expert Developer</p>
         </div>
-        <div className="w-100 h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
+        <div className="w-80 h-80 md:w-100 md:h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
           <Image
             src="/vasuphoto1.jpeg"
             alt="Vasu Peddinti"
             width={400}
             height={400}
-            className="w-full h-full  object-cover rounded-full"
+            className="w-full h-full  object-fill rounded-full"
             priority
           />
         </div>
