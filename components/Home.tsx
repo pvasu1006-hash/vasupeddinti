@@ -56,7 +56,7 @@ export default function Home() {
       <div className="w-full md:w-1/2  flex items-center justify-center relative ">
         <div className="absolute bg-white  w-120 h-120 rounded-full bg-gradient-to-b from-violet-500  to-pink-500 blur-[80px] "></div>
 
-        <div className="absolute left-0     p-2 z-20   flex items-center text-white text-center text-sm">
+        <div className="absolute left-0 top-0 md:top-20    p-2 z-20   flex items-center text-white text-center text-sm">
           <div className="flex justify-baseline items-center bg-violet-50 px-2 py-2 gap-2">
             <h1 className="text-violet-900 font-semibold text-xl border-r border-r-violet-500 md:px-2">
               7+
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute right-0  bottom-20    p-2 z-20   flex items-center text-white text-center text-sm">
+        <div className="absolute right-0 md:right-10  bottom-0 md-bottom-20   p-2 z-20   flex items-center text-white text-center text-sm">
           <div className="flex justify-baseline items-center bg-violet-50 px-2 py-2 gap-2">
             <h1 className="text-violet-900 font-semibold text-xl border-r border-r-violet-500 md:px-2">
               100+
