@@ -37,7 +37,7 @@ export default function Home() {
           <a
             href="VASU_RESUME_FULL_STACK.pdf"
             target="_blank"
-            className="bg-violet-100  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-violet-900"
+            className="hidden md:flex bg-violet-100  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-violet-900"
           >
             Download CV
           </a>
@@ -57,8 +57,8 @@ export default function Home() {
         <div className="absolute bg-white  w-120 h-120 rounded-full bg-gradient-to-b from-violet-500  to-pink-500  blur-[80px] "></div>
 
         <div className="absolute left-0     p-2 z-20   flex items-center text-white text-center text-sm">
-          <div className="flex justify-baseline items-center bg-violet-50 px-4 py-2 gap-2">
-            <h1 className="text-violet-900 font-semibold text-2xl border-r border-r-violet-500 px-2">
+          <div className="flex justify-baseline items-center bg-violet-50 px-2 py-2 gap-2">
+            <h1 className="text-violet-900 font-semibold text-xl border-r border-r-violet-500 md:px-2">
               7+
             </h1>
             <p className="text-sm text-violet-950">
@@ -69,26 +69,26 @@ export default function Home() {
         </div>
 
         <div className="absolute right-0  bottom-20    p-2 z-20   flex items-center text-white text-center text-sm">
-          <div className="flex justify-baseline items-center bg-violet-50 px-4 py-2 gap-2">
-            <h1 className="text-violet-900 font-semibold text-2xl border-r border-r-violet-500 px-2">
+          <div className="flex justify-baseline items-center bg-violet-50 px-2 py-2 gap-2">
+            <h1 className="text-violet-900 font-semibold text-xl border-r border-r-violet-500 md:px-2">
               100+
             </h1>
-            <p className="text-sm text-violet-950">
+            <p className="text-xs md:text-sm text-violet-950">
               Completed <br />
               Projects
             </p>
           </div>
         </div>
 
-        <div className="absolute left-40  bottom-0 w-25 h-25 rounded-full bg-gradient-to-tr from-violet-700  to-pink-300 p-2 z-20  shadow-2xl flex items-center text-white text-center text-sm">
+        <div className="absolute left-10 md:left-40  bottom-0 w-25 h-25 rounded-full bg-gradient-to-tr from-violet-700  to-pink-300 p-2 z-20  shadow-2xl flex items-center text-white text-center text-sm">
           <p>Expert Developer</p>
         </div>
         <div className="w-100 h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
           <Image
             src="/vasuphoto.jpg"
             alt="Vasu Peddinti"
-            width={100}
-            height={100}
+            width={400}
+            height={400}
             className="w-full h-full  object-cover rounded-full"
             priority
           />

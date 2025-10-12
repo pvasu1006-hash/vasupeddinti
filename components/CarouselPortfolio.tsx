@@ -61,7 +61,7 @@ export function CarouselPortfolio() {
   }, [api]);
 
   return (
-    <div id="portfolio" className="py-16 md:p-12 bg-neutral-200">
+    <div id="portfolio" className="md:py-16 py-8 p-2 md:p-12 bg-neutral-200">
       <div>
         <p className="font-semibold text-sm">Visit my Portfolio</p>
         <h1 className="text-2xl ">

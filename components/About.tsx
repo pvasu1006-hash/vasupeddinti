@@ -44,34 +44,27 @@ export default function About() {
 
 
 
-        <div className="mt-4">
-          <table className="text-sm text-left w-full h-15">
-            <tbody>
-              <tr>
-                <td  className="font-semibold">Email:</td>
-                <td>pvasu1006@gmail.com</td>
-                <td  className="font-semibold">Whatsapp:</td>
-                <td>+91 9692384272</td>
-              </tr>
 
-              <tr>
-                <td  className="font-semibold">Location:</td>
-                <td>Visakhapatnam, AP, India</td>
-                <td  className="font-semibold">Freelance:</td>
-                <td>Available</td>
-              </tr>
 
-            </tbody>
-          </table>
+
+        <div className="mt-4 grid md:grid-cols-2 gap-4">
+          <div>
+            <p className="font-semibold">Email:</p>
+            <p>pvasu1006@gmail.com</p>
+          </div>
+          <div>
+            <p className="font-semibold">Whatsapp:</p>
+            <p>+91 9692384272</p>
+          </div>
+          <div>
+            <p className="font-semibold">Location:</p>
+            <p>Visakhapatnam, AP, India</p>
+          </div>
+          <div>
+            <p className="font-semibold">Freelance:</p>
+            <p>Available</p>
+          </div>
         </div>
-        {/* <div className="mt-8">
-          <a
-            href="#"
-            className="bg-violet-500  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-white flex gap-4 items-center w-50"
-          >
-            Learn More <FaArrowRight />
-          </a>
-        </div> */}
       </div>
     </div>
   );

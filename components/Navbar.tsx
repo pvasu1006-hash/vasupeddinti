@@ -34,7 +34,7 @@ export default function Navbar() {
 
         </h1>
       </div>
-      <div className="hidden md:flex flex gap-8 text-sm font-medium text-neutral-500 hover:text-neutral-700">
+      <div className="hidden md:flex  gap-8 text-sm font-medium text-neutral-500 hover:text-neutral-700">
         {menuOptions.map((menu) => (
           <div key={menu.label} className="flex  items-center gap-1 font-semibold">
             <a href={menu.link}>{menu.label} </a>
@@ -52,7 +52,7 @@ export default function Navbar() {
         </a>
         <a
           href="#about"
-          className="bg-purple-500 font-medium hover:bg-violet-700 py-2 px-6 rounded-md text-white transition-all"
+          className="hidden md:flex bg-purple-500 font-medium hover:bg-violet-700 py-2 px-6 rounded-md text-white transition-all"
         >
           Contact
         </a>

@@ -59,7 +59,7 @@ const skills = [
 
 export default function Service() {
   return (
-    <div id="skills" className="py-16 p-12">
+    <div id="skills" className="md:py-16 p-4 md:p-12">
       <div>
         <p className="font-semibold text-sm">
           Technologies and tools I work with regularly
@@ -76,7 +76,7 @@ export default function Service() {
         {skills.map((skill) => (
           <div
             key={skill.title}
-            className="p-4 text-neutral-500 rounded-2xl  shadow-2xl py-8"
+            className="p-4 text-neutral-500 rounded-2xl  shadow-2xl md:py-8"
           >
 
             <p className="pt-4 font-bold  p-4 text-xl bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
