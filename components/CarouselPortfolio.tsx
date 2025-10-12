@@ -62,7 +62,7 @@ export function CarouselPortfolio() {
 
   return (
     <div id="portfolio" className="md:py-16 py-8 p-2 md:p-12 bg-neutral-200">
-      <div>
+      <div className="p-4">
         <p className="font-semibold text-sm">Visit my Portfolio</p>
         <h1 className="text-2xl ">
           My

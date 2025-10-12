@@ -46,7 +46,7 @@ export default function Navbar() {
         <a
           href="VASU_RESUME_FULL_STACK.pdf"
           target="_blank"
-          className="bg-violet-100 font-medium  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-violet-900"
+          className="text-xs bg-violet-100 font-medium  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-violet-900"
         >
           Download CV
         </a>

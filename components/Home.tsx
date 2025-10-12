@@ -61,7 +61,7 @@ export default function Home() {
             <h1 className="text-violet-900 font-semibold text-xl border-r border-r-violet-500 md:px-2">
               7+
             </h1>
-            <p className="text-sm text-violet-950">
+            <p className="text-xs text-violet-950">
               Years of <br />
               Experience
             </p>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="w-100 h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
           <Image
-            src="/vasuphoto.jpg"
+            src="/vasuphoto1.jpeg"
             alt="Vasu Peddinti"
             width={400}
             height={400}
