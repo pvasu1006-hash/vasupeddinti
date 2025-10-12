@@ -1,22 +1,24 @@
+import Image from "next/image";
 import React from "react";
 import {
   FaArrowRight,
-  FaFacebook,
-  FaLinkedin,
-  FaTwitter,
+
 } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <div id="home" className="md:flex md:justify-between my-8 md:p-6  md:py-24 text-gray-900">
+    <div
+      id="home"
+      className="md:flex md:justify-between my-8 md:p-6  md:py-24 text-gray-900"
+    >
       <div className=" w-full md:w-1/2 p-8">
         <p>
-          Hi. I'm <span className="font-semibold"> Vasu Peddinti</span>
+          Hi. I am <span className="font-semibold"> Vasu Peddinti</span>
         </p>
         <h1 className="text-2xl mt-4">
-          I'm
+          I am
           <span className="dm-serif pl-2 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
-              Professional
+            Professional
           </span>
           <br /> Expert Developer.
         </h1>
@@ -37,7 +39,7 @@ export default function Home() {
           </a>
           <a
             href="VASU_RESUME_FULL_STACK.pdf"
-          target="_blank"
+            target="_blank"
             className="bg-violet-100  hover:bg-violet-700 hover:text-white py-2 px-6 rounded-md transition-all text-violet-900"
           >
             Download CV
@@ -85,9 +87,12 @@ export default function Home() {
           <p>Expert Developer</p>
         </div>
         <div className="w-100 h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
-          <img
-            className="h-full w-full rounded-full "
+          <Image
+            className="h-100 w-80 object-cover rounded-md  shadow-2xl"
             src="/vasuphoto.jpg"
+            height={100}
+            width={80}
+            alt="profile"
           />
         </div>
       </div>

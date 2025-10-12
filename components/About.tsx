@@ -1,5 +1,6 @@
+import Image from "next/image";
 import React from "react";
-import { FaArrowRight } from "react-icons/fa6";
+
 
 export default function About() {
   return (
@@ -8,9 +9,13 @@ export default function About() {
         <div className="h-90 w-80  bg-gradient-to-r from-violet-500  to-pink-500 p-1 rounded-md">
           <div className="flex h-full  w-full items-center justify-center bg-transpartent back p-2 relative">
             <div className=" absolute left-1 top-1 w-80 h-80  bg-white rounded-md">
-              <img
+
+              <Image
                 className="h-100 w-80 object-cover rounded-md  shadow-2xl"
                 src="/vasuphoto1.jpeg"
+                height={100}
+                width={80}
+                alt="profile"
               />
             </div>
           </div>
@@ -20,10 +25,8 @@ export default function About() {
       <div className="md:w-[70%] px-4 md:px-8 py-16">
         <p className="font-semibold text-sm">Services I Offer to my Clients</p>
         <h1 className="text-2xl ">
-          I'm
-          <span className="dm-serif bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500 pl-2">
-            Vasu
-          </span>
+         <p> I am <span className="dm-serif bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500 pl-2"> Vasu
+          </span></p>
         </h1>
         <p className="text-sm mt-4 text-neutral-500">
           Results-driven Full Stack Developer and Senior Software Engineer with
