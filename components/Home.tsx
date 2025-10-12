@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import {
-  FaArrowRight,
-
-} from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -88,11 +85,12 @@ export default function Home() {
         </div>
         <div className="w-100 h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
           <Image
-            className="h-100 w-80 object-cover rounded-md  shadow-2xl"
             src="/vasuphoto.jpg"
+            alt="Vasu Peddinti"
+            width={100}
             height={100}
-            width={80}
-            alt="profile"
+            className="w-full h-full  object-cover rounded-full"
+            priority
           />
         </div>
       </div>
