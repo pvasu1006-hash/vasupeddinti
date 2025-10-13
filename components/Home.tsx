@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="w-80 h-80 md:w-100 md:h-100  bg-transparent rounded-full z-10 shadow-2xl border-10 border-white ">
           <Image
-            src="/vasuphoto.jpg"
+            src="/vasuphoto1.jpeg"
             alt="Vasu Peddinti"
             width={400}
             height={400}
