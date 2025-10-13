@@ -11,10 +11,10 @@ export default function About() {
             <div className=" absolute left-1 top-1 w-80 h-80  bg-white rounded-md">
 
               <Image
-                className="h-100 w-80 object-cover rounded-md  shadow-2xl"
-                src="/vasuphoto1.jpeg"
-                height={100}
-                width={80}
+                className="h-100 w-100 object-cover rounded-md  shadow-2xl"
+                src="/vasuphoto.jpg"
+                height={400}
+                width={400}
                 alt="profile"
               />
             </div>
