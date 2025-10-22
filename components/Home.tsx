@@ -13,18 +13,14 @@ export default function Home() {
           Hi. I am <span className="font-semibold"> Vasu Peddinti</span>
         </p>
         <h1 className="text-2xl mt-4">
-          I am
-          <span className="dm-serif pl-2 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
-            Professional
+
+          <span className="dm-serif  bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+          Full Stack Developer | React Native, Next.js, Python | 7+ Years in Scalable Government Tech
           </span>
-          <br /> Expert Developer.
+
         </h1>
         <p className="text-sm mt-4 text-neutral-500">
-          I am a Full Stack Developer and Senior Software Engineer with 7+ years
-          of proven experience delivering scalable web and mobile solutions for
-          government and education sectors. Expert in React Native, Next.js,
-          Python, and PHP with demonstrated track record of reducing operational
-          errors by 60% and contributing to national award-winning projects.
+        Building modular, audit-ready platforms for education, tribal welfare, and automation.
         </p>
 
         <div className="flex gap-6 mt-8">
