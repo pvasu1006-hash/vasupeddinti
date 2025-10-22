@@ -12,11 +12,7 @@ export default function About() {
           <div className="flex h-full  w-full items-center justify-center bg-transpartent back p-2 relative">
             <div className=" absolute left-1 top-1 w-80 h-80  bg-white rounded-md">
               <Image
-<<<<<<< HEAD
                 className="h-100 w-80 object-cover rounded-md  shadow-2xl"
-=======
-                className="h-100 w-100 object-cover rounded-md  shadow-2xl"
->>>>>>> a53e73caf08b7a1c61ac7c13fb40350e64f01ac0
                 src="/vasuphoto.jpg"
                 height={400}
                 width={400}
